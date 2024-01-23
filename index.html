@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustivel</title>
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Gastos de Combustivel</h1>
+
+    </header>
+    <section>
+        <div id="Entrada"> 
+            <p id="ent"> Modelo do Carro: 
+                <select  name="ModelCar" id="ModelCar">
+                    
+                    <option value="opcao1">Carro 1</option>
+                    <option value="opcao1">Carro 2</option>
+                    <option value="opcao up">Carro da Carol</option>
+                    <option value="opcao1">Carro 4</option>
+                    <option value="opcao1">Carro 5</option>
+                    <option value="opcao1">Carro 6</option>
+                </select>
+              
+            </p>
+
+            <p id="ent"> Consumo Médio do Carro 
+                <input type="number" name="txtCons" id="txtCons" min="0">
+                Km/L  
+            </p>
+
+            <p id="ent"> Preço do Combustivel:  R$ 
+                <input type="number" name="txtPrec" id="txtPrec" min="0">  
+            </p>
+
+            <p id="ent"> Distância da Viagem: 
+                <input type="number" name="txtDist" id="txtDist" min="0"> 
+                Km 
+            </p>
+
+        </div>
+        <div > 
+            <input id="Calc" type="button" value="CALCULAR" onclick="contador()">
+        </div>
+
+    </section>
+        
+ 
+    <div class="" id="txtRES">
+
+        <div id="res">
+        
+    
+        </div>
+
+    </div>
+    <footer>
+        Feito por: <a href="https://github.com/Huguenin-Jarbas">Huguenin Jarbas</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

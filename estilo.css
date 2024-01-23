@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(13, 111, 177);
+    font: normal 15 pt arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+
+}
+
+div#Entrada{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
+}
+
+#ent{
+    justify-content: center;
+    width: fit-content;
+    background-color:  rgb(7, 68, 109);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+
+}
+
+
+div#Entrada p input {
+    width: 40px;
+    
+
+}
+
+#Calc{
+    display: flex;
+    margin: 20px  auto;
+    background-color:  rgb(7, 68, 109);  
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671)
+}
+
+div#res{
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.result{
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+}
+
+footer, a {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
