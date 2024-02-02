@@ -40,12 +40,6 @@ div#Entrada{
 }
 
 
-div#Entrada p input {
-    width: 40px;
-    
-
-}
-
 #Calc{
     display: flex;
     margin: 20px  auto;
