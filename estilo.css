@@ -39,16 +39,15 @@ div#Entrada{
 
 }
 
+
 #Calc{
-    margin: 20px:
-    background-color:  rgb(7, 68, 109);
+    display: flex;
+    margin: 20px  auto;
+    background-color:  rgb(7, 68, 109);  
     color: white;
-    padding: 8px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
-
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671)
 }
-
 
 div#res{
     font-weight: bold;
@@ -69,6 +68,11 @@ div#res{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
 }
 
+footer, a {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
 footer, a {
     margin-top: 20px;
     color: white;
