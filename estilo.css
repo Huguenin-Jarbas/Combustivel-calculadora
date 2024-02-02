@@ -40,7 +40,7 @@ div#Entrada{
 }
 
 
-/* #Calc{
+#Calc{
     display: flex;
     margin: 20px  auto;
     background-color:  rgb(7, 68, 109);  
@@ -48,7 +48,7 @@ div#Entrada{
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671)
 }
- */
+
 div#res{
     font-weight: bold;
     margin: auto;
